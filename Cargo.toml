@@ -5,3 +5,10 @@ authors = ["Andrew Kubera <andrew.kubera@floss.email>"]
 edition = "2018"
 
 [dependencies]
+tokio-codec = "0.2.0-alpha.6"
+rmpv = "*"
+rmp-serde = "*"
+bytes = "0.4.12"
+
+[dev-dependencies]
+tokio-io = "0.2.0-alpha.6"
